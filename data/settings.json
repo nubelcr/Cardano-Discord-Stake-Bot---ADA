@@ -1,0 +1,1 @@
+{"token":"##PUT_BOTS_APP_TOKEN_HERE","client":"##BOT_CLIEN_ID_HERE","tag":"!","case":"false","separator":"\\s+","modules":{"discord.js":["",true],"fstorm":["",true],"jimp":["",true]},"ownerId":"##PUT_YOUR_DISCORDIDWITH_#XXXXS_AT_THE_END_HERE"}
