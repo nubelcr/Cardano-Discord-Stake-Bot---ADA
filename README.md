@@ -1,3 +1,14 @@
+## Support
+
+This project was made with love by TheChemist. If you would like to help support this open-source project you can help in a mutliple of ways.
+
+Help add functionality, suggestions and provide feedback as well as donating ADA to the following address or joining my Stake pool!
+
+Donate Cardano to:
+```bash
+addr1q822nxjuu89qf4p29r9gkk72ewvxh9l6sc6ctgcdf2us5fre3z6p6zd8x49z9ccrmz07fk0prd9e8nqzgvc7mwy2u4zsh87dwf
+```
+
 
 ## Install instructions
 
@@ -75,11 +86,11 @@ To see a specific epoch results use the command as above but enter the epoch # t
 Example:
   !epoch 89
 ```
-## Support
 
-If you would like to help support this open-source project you can help in a mutliple of ways.
+## Future API updates
 
-Help add functionality, suggestions and provide feedback.
+Should the API from PoolTools ever change, you can easily modify and update the bot yourself by visiting the commands.json file located in the data folder. update inside the parenthesis with the correct URL but DO NOT DELETE ${serverVars(\"PoolID\")} or you are guaranteed to have a bad time mkay?
+
 ```bash
-Donate Cardano to: DdzFFzCqrhsgeoZkAuLRuR3tFSyYGVcvmgXC8LjBZ6Bptcf6ysUNYU7pxXpKK6agWiy5wtsoB4WV9ZS54VkVxW67HUNz6ZGUP3uAFfMk
+"url":"https://pooltool.s3-us-west-2.amazonaws.com/8e4d2a3/pools/${serverVars(\"PoolID\")}/epochstats.json"
 ```
